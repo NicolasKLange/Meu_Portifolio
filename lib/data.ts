@@ -40,7 +40,7 @@ export const trajetoriaData = [
     description:
       "Começei o curso de desenvolvimento de sistemas que no inicio me ajudou muito com lógica de programação, design e até me introduziu a banco de dados. Usava Java, Portugol e Figma como principais ferramentas.",
     icon: React.createElement(LuGraduationCap),
-    date: "02 / 2022",
+    date: "02 / 2022 - Momento",
   },
   {
     title: "BootCamp da Eliti",
@@ -51,12 +51,20 @@ export const trajetoriaData = [
     date: "11 - 12 / 2023",
   },
   {
+    title: "Curso de FLutter",
+    location: "Lince Tech, Gaspar",
+    description:
+      "Curso focado no aprendizado para desenvolvimento Mobile, com a Linguagem de Programação Dart junto ao framework FLutter, muitos aprendizados e também feito um bom network com pessoas que já trabalham na área para que possa entender como é as suas tarefas e organização para conseguir entregar o trabalho proposto. ",
+    icon: React.createElement(LiaUniversitySolid),
+    date: "04 - 07 / 2024",
+  },
+  {
     title: "INDUSPHERE",
     location: "SENAI, Blumenau",
     description:
       "Como um dos projetos finais do meu curso, minha turma está produzinho a INDUSPHERE, um sistema automatizado completo para a indústria têxtil , onde ajudo principalmente com o front-end (feito em HTML,CSS e JS) e na modelagem do banco de dados. No geral, o processo vem me proporcionando muita experiência em criação de projetos, trabalho em grupos e método SCRUM. ",
     icon: React.createElement(LiaUniversitySolid),
-    date: "05 / 2024 - Momento",
+    date: "06 / 2024 - Momento",
   },
 ] as const;
 
@@ -75,24 +83,17 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Vercel"],
     imageUrl: jogodavelhaImg,
   },
-  /*{
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },*/
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "React Native",
-  "Next.js",
-  "Java ( Lóg. de Programação )",
+  "Flutter",
+  "Dart",
+  "Java",
+  "SQlite",
+  "SQL",
   "Git",
   "Figma",
 ] as const;
