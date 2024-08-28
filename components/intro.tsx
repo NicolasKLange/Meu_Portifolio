@@ -42,7 +42,7 @@ export default function Intro() {
               duration: 0.2,
             }}      
           >
-           <Image src={"/profilepicture.jpg"} alt="Vitor Rodrigues ( Retrato )" 
+           <Image src={"/minhafoto.jpg"} alt="Nicolas Lange ( Retrato )" 
               width="192"
               height="192"
               quality="95"
