@@ -21,7 +21,7 @@ export default function Contato() {
         }}
     >
       <SectionHeading>Entre em Contato</SectionHeading>
-      <p className='text-gray-700 -mt-6 dark:text-white/80'>Fale comigo atráves do meu e-mail, <a className='underline' href='mailto:rodrigvues@gmail.com'>rodrigvues@gmail.com</a>, ou através da caixa de mensagem abaixo.</p>
+      <p className='text-gray-700 -mt-6 dark:text-white/80'>Fale comigo atráves do meu e-mail, <a className='underline' href='mailto:rodrigvues@gmail.com'>nklange986@gmail.com</a>, ou através da caixa de mensagem abaixo.</p>
       <form className='mt-10 flex flex-col dark:text-black' 
       action={async (formData) => {
         const {data, error } = await sendEmail(formData);

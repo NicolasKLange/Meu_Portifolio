@@ -35,10 +35,10 @@ export const links = [
 
 export const trajetoriaData = [
   {
-    title: "Começo do Curso Técnico",
+    title: "Começo do curso técnico integrado ao Ensino Médio",
     location: "SENAI, Blumenau",
     description:
-      "Começei o curso de desenvolvimento de sistemas que no inicio me ajudou muito com lógica de programação, design e até me introduziu a banco de dados. Usava Java, Portugol e Figma como principais ferramentas.",
+      "Neste curso posso aprender ",
     icon: React.createElement(LuGraduationCap),
     date: "02 / 2022 - Momento",
   },

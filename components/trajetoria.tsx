@@ -53,17 +53,3 @@ export default function Trajetoria() {
     </section>
   );
 }
-/*<SectionHeading>Minha Trajetória</SectionHeading>
-        <VerticalTimeline>
-            {formacaoData.map((item, index) => (
-                <React.Fragment key={index}>
-                    <VerticalTimelineElement>
-                        <h3>{item.title}</h3>
-                        <h4>{item.location}</h4>
-                        <p>
-                            {item.description}
-                        </p>
-                    </VerticalTimelineElement>
-                </React.Fragment>
-            ))}
-        </VerticalTimeline>*/
