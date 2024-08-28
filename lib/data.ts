@@ -76,9 +76,7 @@ export const projectsData = [
     imageUrl: projetoLince,
   },
   {
-    
-    title: "Controle Funcionário",
-    
+    title: "Controle Funcionário", 
     description:
       "Projeto das aulas de Desenvolimento de Sistemas, Controle de funionários de uma empresa, onde o usuário pode adicionar, editar, visualizar os departamento, funcionários e a folha de pagamento.",
     tags: ["Java" , "MySQL"],

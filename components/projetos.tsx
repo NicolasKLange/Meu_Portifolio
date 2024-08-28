@@ -12,6 +12,7 @@ export default function Projetos() {
   return (
     <section ref={ref} id='projetos' className='scroll-mt-28 mb-28' >
         <SectionHeading>Meus projetos</SectionHeading>
+        <a href="https://github.com/NicolasKLange">
         <div>
             {projectsData.map((project, index) => (
                 <React.Fragment key={index}>
@@ -19,6 +20,8 @@ export default function Projetos() {
                 </React.Fragment>
             ))}
         </div>
+        </a>
+        
     </section>
   )
 }
