@@ -2,9 +2,8 @@ import React from "react";
 import { RiNextjsLine } from "react-icons/ri";
 import { LiaUniversitySolid } from "react-icons/lia";
 import { LuGraduationCap } from "react-icons/lu";
-import converrcyImg from "@/public/converrcy.png";
-import jogodavelhaImg from "@/public/jogodavelha.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import projetoLince from "@/public/imgCarro.jpg";
+import controleFuncionario from "@/public/funcionario.jpg";
 
 export const links = [
   {
@@ -38,7 +37,7 @@ export const trajetoriaData = [
     title: "Começo do curso técnico integrado ao Ensino Médio",
     location: "SENAI, Blumenau",
     description:
-      "Neste curso posso aprender ",
+      "Neste curso posso aprender tanto front-end(CSS e JavaScript), back-end(Java) e banco de dados(MySQL), onde faço a elaboração de projetos junto a equipes, utilizando a metodologia SCRUM para desevolver os projetos, além de estar moldando o meu futuro no mercado de trabalho, mostrando que para conquistar nossas coisas devemos ter proatividade para buscar os nosso sonhos. ",
     icon: React.createElement(LuGraduationCap),
     date: "02 / 2022 - Momento",
   },
@@ -70,18 +69,21 @@ export const trajetoriaData = [
 
 export const projectsData = [
   {
-    title: "Converrcy",
+    title: "Alugúel de carro",
     description:
-      "Conversor de moedas online totalmente funcional. No momento, meu principal projeto feito com CRA ( Create React App ).",
-    tags: ["React", "TypeScript", "Figma", "Tailwind", "API"],
-    imageUrl: converrcyImg,
+      "App para aluguél de carro para pessoa jurídicas, feito no curso de flutter da Lince Tech.",
+    tags: ["Flutter" , "Dart" , "SQlite"],
+    imageUrl: projetoLince,
   },
   {
-    title: "Jogo da Velha",
+    
+    title: "Controle Funcionário",
+    
     description:
-      "Jogo da Velha produzido no bootcamp da ELITI que funcionou como minha ponte do React para Next.Js",
-    tags: ["React", "TypeScript", "Next.js", "Vercel"],
-    imageUrl: jogodavelhaImg,
+      "Projeto das aulas de Desenvolimento de Sistemas, Controle de funionários de uma empresa, onde o usuário pode adicionar, editar, visualizar os departamento, funcionários e a folha de pagamento.",
+    tags: ["Java" , "MySQL"],
+    href: "https://github.com/NicolasKLange/ControleFuncionario",
+    imageUrl: controleFuncionario,
   },
 ] as const;
 
