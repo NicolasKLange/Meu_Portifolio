@@ -69,10 +69,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }} 
         animate={{ opacity: 1, y: 0 }}    
         >
-          <span className="font-bold">Olá, meu nome é Vitor.</span> Sou um{" "}
-          <span className="font-bold">Dev e Estudante</span> em{" "}
+          <span className="font-bold">Olá, meu nome é Nicolas.</span> Sou um{" "}
+          <span className="font-bold">Dev Junior e Estudante</span> em{" "}
           <span className="font-bold">Blumenau</span> e adoro desenvolver {" "}
-          <span className="underline">websites & apps</span>. Foco no desenvolvimento com <span className="italic">React e Next.js</span> e no momento estou cursando{" "}
+          <span className="underline">websites & apps</span>. Foco no desenvolvimento com <span className="italic">Flutter, Dart e Java</span> e no momento estou cursando{" "}
           <span className="font-bold">Desenvolvimento
           de Sistemas</span> no SENAI.
         </motion.h1>
@@ -99,12 +99,12 @@ export default function Intro() {
           </a>
 
 
-          <a href="https://linkedin.com/in/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
+          <a href="https://www.linkedin.com/in/nicolas-lange-801855239/" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
             <BsLinkedin />
           </a>
 
 
-          <a href="https://github.com/rodrigvues" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
+          <a href="https://github.com/NicolasKLange" target="_blank" className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'>
             <FaGithubSquare />
           </a>
         </motion.div>
