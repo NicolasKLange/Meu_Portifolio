@@ -62,6 +62,14 @@ export const trajetoriaData = [
     date: "11 - 12 / 2023",
   },
   {
+    title: "Maratona CyberEducação",
+    location: "Cisco Networking Academy",
+    description:
+      "Por meio desta maratona percebi que tenho potencial para chegar onde eu quiser, apenas com esforço e dedicação para alcançar os meus objetivos, primeiramente teve uma seleção para escolher as pessoas a participar, e eu fiquei entre os 1500 selecionados entre 34 mil pessoas inscitas, a partir disso comecei a fazer o curso de CiberSecurity Essentials e logo após, pude realizar mais o curso de CyberOps Associate, onde no final dos dois cursos recebi um certificado e uma carta mérito por conta das ótimas notas em ambos os cursos. ",
+    icon: React.createElement(MdOutlineFactory),
+    date: "10 / 2023 - 03 / 2024",
+  },
+  {
     title: "Curso de FLutter",
     location: "Lince Tech, Gaspar",
     description:
