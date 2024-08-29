@@ -1,7 +1,11 @@
 import React from "react";
+
+//IMPORT DE ICONS
 import { RiNextjsLine } from "react-icons/ri";
 import { LiaUniversitySolid } from "react-icons/lia";
-import { LuGraduationCap } from "react-icons/lu";
+import { MdOutlineFactory } from "react-icons/md";
+import { TbSchool } from "react-icons/tb";
+import { FaSchool } from "react-icons/fa";
 import projetoLince from "@/public/imgCarro.jpg";
 import controleFuncionario from "@/public/funcionario.jpg";
 
@@ -34,11 +38,19 @@ export const links = [
 
 export const trajetoriaData = [
   {
+    title: "Jovem Aprendiz",
+    location: "Cia da Meia, Blumenau",
+    description:
+      "Como jovem aprendiz da empresa Cia da Meia, por conta da pandemia tive apenas aulas no cusro de Tecnologia da Informação no SENAI remotamente, desde aí me apaixonei pelo mundo da tecnologia, aprendendo conceitos básicos de lógica de programação, indo poucas vezes ao SENAI, para fazermos trabalhos como montagem e concertos de computadores e instalação de programas computacionais. ",
+    icon: React.createElement(MdOutlineFactory),
+    date: "01 - 12 / 2021",
+  },
+  {
     title: "Começo do curso técnico integrado ao Ensino Médio",
     location: "SENAI, Blumenau",
     description:
       "Neste curso posso aprender tanto front-end(CSS e JavaScript), back-end(Java) e banco de dados(MySQL), onde faço a elaboração de projetos junto a equipes, utilizando a metodologia SCRUM para desevolver os projetos, além de estar moldando o meu futuro no mercado de trabalho, mostrando que para conquistar nossas coisas devemos ter proatividade para buscar os nosso sonhos. ",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaSchool),
     date: "02 / 2022 - Momento",
   },
   {
@@ -54,7 +66,7 @@ export const trajetoriaData = [
     location: "Lince Tech, Gaspar",
     description:
       "Curso focado no aprendizado para desenvolvimento Mobile, com a Linguagem de Programação Dart junto ao framework FLutter, muitos aprendizados e também feito um bom network com pessoas que já trabalham na área para que possa entender como é as suas tarefas e organização para conseguir entregar o trabalho proposto. ",
-    icon: React.createElement(LiaUniversitySolid),
+    icon: React.createElement(TbSchool),
     date: "04 - 07 / 2024",
   },
   {
