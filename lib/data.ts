@@ -6,9 +6,15 @@ import { LiaUniversitySolid } from "react-icons/lia";
 import { MdOutlineFactory } from "react-icons/md";
 import { TbSchool } from "react-icons/tb";
 import { FaSchool } from "react-icons/fa";
+import { MdPhoneAndroid } from "react-icons/md";
+
+//IMPORT DE IMAGENS
 import projetoLince from "@/public/imgCarro.jpg";
 import controleFuncionario from "@/public/funcionario.jpg";
 import reservasAssentos from "@/public/Aviao.jpg";
+import familyHome from "@/public/FamilyHome.jpg";
+import jogoDaVelha from "@/public/jogoDaVelha.jpg";
+import calculadora from "@/public/calculadora.jpg";
 
 export const links = [
   {
@@ -86,6 +92,14 @@ export const trajetoriaData = [
     icon: React.createElement(LiaUniversitySolid),
     date: "06 / 2024 - Momento",
   },
+  {
+    title: "App Family Home",
+    location: "Blumenau",
+    description:
+      "Projeto pessoal, sendo feito em Flutter e Dart, que visa o gerenciamento de atividades domésticas, listas de compras e eventos importantes, de uma família, pretendo fazer com que há um código de família sendo possível todos as pessoas da família poderem acessar as mesmas funcionalidades, por exemplo: adicionar produtos a lista de mercado para fazer a devida compra, entre outras funcionalidades.",
+    icon: React.createElement(MdPhoneAndroid),
+    date: "09 / 2024 - Momento",
+  },
 ] as const;
 
 export const projectsData = [
@@ -93,9 +107,17 @@ export const projectsData = [
     title: "Alugúel de carro",
     description:
       "App para aluguél de carro para pessoa jurídicas, feito no curso de flutter da Lince Tech.",
-    tags: ["Flutter" , "Dart" , "SQlite"],
+    tags: ["Flutter" , "Dart" , "SQlite", "Git"],
     imageUrl: projetoLince,
     link: "https://github.com/NicolasKLange/projeto_lince"
+  },
+  {
+    title: "Family Home", 
+    description:
+      "Projeto pessoal, visando a organzação de sua família, gerenciar atividades domésticas, manter listas de compras e marcar eventos importantes, além de futuras funcionalidaes.",
+    tags: ["Flutter" , "Dart", "SQlite", "Figma", "Git"],
+    imageUrl: familyHome,
+    link: "https://github.com/NicolasKLange/App-Family-Home"
   },
   {
     title: "Controle Funcionário", 
@@ -104,6 +126,22 @@ export const projectsData = [
     tags: ["Java" , "MySQL"],
     imageUrl: controleFuncionario,
     link: "https://github.com/NicolasKLange/ControleFuncionario"
+  },
+  {
+    title: "jogo Da Velha", 
+    description:
+      "Jogo da velha feito no período que estava no BootCamp da Eliti, para aprimorar meus conhecimentos em front-end.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: jogoDaVelha,
+    link: "https://github.com/NicolasKLange/JogoDaVelha"
+  },
+  {
+    title: "Calculadora", 
+    description:
+      "Fiz essa calculadora no período que estava no BootCamp da Eliti, para aprimorar meus conhecimentos em front-end, possui também uma versão em Java no GitHub.",
+    tags: ["HTML", "CSS"],
+    imageUrl: calculadora,
+    link: "https://github.com/NicolasKLange/calculadora"
   },
   {
     title: "Reserva de Assentos", 
