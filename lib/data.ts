@@ -8,6 +8,7 @@ import { TbSchool } from "react-icons/tb";
 import { FaSchool } from "react-icons/fa";
 import projetoLince from "@/public/imgCarro.jpg";
 import controleFuncionario from "@/public/funcionario.jpg";
+import reservasAssentos from "@/public/Aviao.jpg";
 
 export const links = [
   {
@@ -94,14 +95,23 @@ export const projectsData = [
       "App para aluguél de carro para pessoa jurídicas, feito no curso de flutter da Lince Tech.",
     tags: ["Flutter" , "Dart" , "SQlite"],
     imageUrl: projetoLince,
+    link: "https://github.com/NicolasKLange/projeto_lince"
   },
   {
     title: "Controle Funcionário", 
     description:
       "Projeto das aulas de Desenvolimento de Sistemas, Controle de funionários de uma empresa, onde o usuário pode adicionar, editar, visualizar os departamento, funcionários e a folha de pagamento.",
     tags: ["Java" , "MySQL"],
-    href: "https://github.com/NicolasKLange/ControleFuncionario",
     imageUrl: controleFuncionario,
+    link: "https://github.com/NicolasKLange/ControleFuncionario"
+  },
+  {
+    title: "Reserva de Assentos", 
+    description:
+      "Projeto das aulas de Desenvolimento de Sistemas, feito apenas a parte de back-end, o usuário pode reservar e visualizar as pessoas que reservaram os devidos assentos.",
+    tags: ["Java"],
+    imageUrl: reservasAssentos,
+    link: "https://github.com/NicolasKLange/Aeronave"
   },
 ] as const;
 

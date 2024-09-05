@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 type ProjetoProps = typeof projectsData[number];
 
-export default function Projeto({ title, description, tags, imageUrl }: ProjetoProps) {
+export default function Projeto({ title, description, tags, imageUrl, link }: ProjetoProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -26,6 +26,7 @@ export default function Projeto({ title, description, tags, imageUrl }: ProjetoP
             }}
         className="group mb-3 sm:mb-8 last:mb-0"
         >
+            <a href= {link}>
             <section 
             className=' bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem]   hover:bg-gray-200 transition
             group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20'>
@@ -58,6 +59,8 @@ export default function Projeto({ title, description, tags, imageUrl }: ProjetoP
                     group-even:right-[initial] group-even:-left-40'
                 />
             </section>
+            </a>
+            
         </motion.div>
     )
     
