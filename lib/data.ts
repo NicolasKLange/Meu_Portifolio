@@ -125,7 +125,7 @@ export const projectsData = [
       "Projeto das aulas de Desenvolimento de Sistemas, Controle de funionários de uma empresa, onde o usuário pode adicionar, editar, visualizar os departamento, funcionários e a folha de pagamento.",
     tags: ["Java" , "MySQL"],
     imageUrl: controleFuncionario,
-    link: "https://github.com/NicolasKLange/ControleFuncionario"
+    link: "https://github.com/NicolasKLange/ControleFuncionarioWeb"
   },
   {
     title: "jogo Da Velha", 
