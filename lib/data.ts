@@ -7,6 +7,7 @@ import { MdOutlineFactory } from "react-icons/md";
 import { TbSchool } from "react-icons/tb";
 import { FaSchool } from "react-icons/fa";
 import { MdPhoneAndroid } from "react-icons/md";
+import { IoWalletSharp } from "react-icons/io5";
 
 //IMPORT DE IMAGENS
 import projetoLince from "@/public/imgCarro.jpg";
@@ -98,6 +99,14 @@ export const trajetoriaData = [
     description:
       "Projeto pessoal, sendo feito em Flutter e Dart, que visa o gerenciamento de atividades domésticas, listas de compras e eventos importantes, de uma família, pretendo fazer com que há um código de família sendo possível todos as pessoas da família poderem acessar as mesmas funcionalidades, por exemplo: adicionar produtos a lista de mercado para fazer a devida compra, entre outras funcionalidades.",
     icon: React.createElement(MdPhoneAndroid),
+    date: "09 / 2024 - Momento",
+  },
+  {
+    title: "Startup Supa Tech",
+    location: "Blumenau",
+    description:
+      "Decidi me aventurar no mundo empresarial criando a minha própria Startup, focada principalmente na criação de apps mobile e desenvolvimento de Sistemas, com isso estou me aprofundo mais neste mundo de trabalho, tendo minhas próprias metas e também terque estar focado em tudo, para que nada de errado, sendo pelos apps, e pelo marketing da Startup.",
+    icon: React.createElement(IoWalletSharp),
     date: "09 / 2024 - Momento",
   },
 ] as const;
