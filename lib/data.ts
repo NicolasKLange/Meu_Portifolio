@@ -16,6 +16,7 @@ import reservasAssentos from "@/public/Aviao.jpg";
 import familyHome from "@/public/FamilyHome.jpg";
 import jogoDaVelha from "@/public/jogoDaVelha.jpg";
 import calculadora from "@/public/calculadora.jpg";
+import metsApp from "@/public/metas_pessoais.jpg";
 
 export const links = [
   {
@@ -99,19 +100,36 @@ export const trajetoriaData = [
     description:
       "Projeto pessoal, sendo feito em Flutter e Dart, que visa o gerenciamento de atividades domésticas, listas de compras e eventos importantes, de uma família, pretendo fazer com que há um código de família sendo possível todos as pessoas da família poderem acessar as mesmas funcionalidades, por exemplo: adicionar produtos a lista de mercado para fazer a devida compra, entre outras funcionalidades.",
     icon: React.createElement(MdPhoneAndroid),
-    date: "09 / 2024 - Momento",
+    date: "09 / 2024 - 02 / 2025",
   },
   {
-    title: "Startup Supa Tech",
+    title: "Mets App",
     location: "Blumenau",
     description:
-      "Decidi me aventurar no mundo empresarial criando a minha própria Startup, focada principalmente na criação de apps mobile e desenvolvimento de Sistemas, com isso estou me aprofundo mais neste mundo de trabalho, tendo minhas próprias metas e também terque estar focado em tudo, para que nada de errado, sendo pelos apps, e pelo marketing da Startup.",
-    icon: React.createElement(IoWalletSharp),
-    date: "09 / 2024 - Momento",
+      "Projeto pessoal, feito em Flutter e Dart, visando a organzação de suas metas pessoais, onde o usuário poderá criar suas metas para o ano e ir acompanhando-a de acordo com o seu progresso da semana, podendo ser ajustado comforme especificações do usuário.",
+    icon: React.createElement(MdPhoneAndroid),
+    date: "02 / 2025 - no momento",
   },
+  
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Mets App", 
+    description:
+      "Projeto pessoal, visando a organzação de suas metas pessoais, onde o usuário poderá criar suas metas para o ano e ir acompanhando-a de acordo com o seu progresso da semana.",
+    tags: ["Flutter" , "Dart", "Firebase", "Figma", "Git"],
+    imageUrl: metsApp,
+    link: "https://github.com/NicolasKLange/MetsApp"
+  },
+  {
+    title: "Family Home", 
+    description:
+      "Projeto pessoal, visando a organzação de sua família, gerenciar atividades domésticas, manter listas de compras e marcar eventos importantes, além de futuras funcionalidaes.",
+    tags: ["Flutter" , "Dart", "Firebase", "Figma", "Git"],
+    imageUrl: familyHome,
+    link: "https://github.com/NicolasKLange/App-Family-Home"
+  },
   {
     title: "Alugúel de carro",
     description:
@@ -119,14 +137,6 @@ export const projectsData = [
     tags: ["Flutter" , "Dart" , "SQlite", "Git"],
     imageUrl: projetoLince,
     link: "https://github.com/NicolasKLange/projeto_lince"
-  },
-  {
-    title: "Family Home", 
-    description:
-      "Projeto pessoal, visando a organzação de sua família, gerenciar atividades domésticas, manter listas de compras e marcar eventos importantes, além de futuras funcionalidaes.",
-    tags: ["Flutter" , "Dart", "SQlite", "Figma", "Git"],
-    imageUrl: familyHome,
-    link: "https://github.com/NicolasKLange/App-Family-Home"
   },
   {
     title: "Controle Funcionário", 
